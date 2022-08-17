@@ -1,0 +1,36 @@
+.Form {
+    background-color: rgb(206, 172, 238);
+
+}
+.input {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+    padding: 10px;
+
+}
+
+.input_box {
+    height: 40px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: rgb(129, 141, 183);
+    
+    padding: 5px;
+}
+
+.font {
+    color:rgb(246, 241, 250);
+    font-size: 30px;
+    font-weight: bold;
+    
+
+}
+
+.btn {
+    
+    }

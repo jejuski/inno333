@@ -19,15 +19,15 @@ function Form({todos, setTodos}) {
         setInputTodo(initialState)
     }
     return (
-        <form onSubmit={onSubmitHandler} > 
-        <div>
-            <label>제목</label>
+        <form className="Form" onSubmit={onSubmitHandler} > 
+        <div className="input_box">
+            <label className="font">제목</label>
             <input type='text' name= "title" onChange ={ onChangeHandler} value={inputTodo.title} required />
-            <label>내용</label>
+            <label className="font">내용</label>
             <input type ='text' name="body" onChange={onChangeHandler} value={inputTodo.body}/>
 
         </div>
-        <button>추가하기</button>
+        <button className="btn">추가하기</button>
         </form>
     )
     } 

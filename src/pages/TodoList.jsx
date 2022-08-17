@@ -16,7 +16,7 @@ function TodoList(){
         {
             id:2,
             title: "리액트 공부",
-            body: "뭐 어쩌라고",
+            body: "저쩌고 어쩌고",
             isDone: true
         }
     ])
