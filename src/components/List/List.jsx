@@ -27,9 +27,9 @@ function List({todos, setTodos}) {
     }
 
     return (
-        <div>
+        <div className="list_box">
             <h1>해야할일</h1>
-            <div>
+            <div className="list_wrap">
                 {
                     todos.map((todo) => {
                         if (todo.isDone === false) {

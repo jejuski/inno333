@@ -4,8 +4,8 @@ import './style.css'
 function Header() {
     return (
         <div>
-            <div>My Todo List</div>
-            <div>React</div>
+            <div className="text_1">My Todo List</div>
+            <div className="text_2">React</div>
         </div>
     )
 }

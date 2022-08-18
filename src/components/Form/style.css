@@ -1,15 +1,20 @@
 .Form {
-    background-color: rgb(206, 172, 238);
+    height: 50px;
 
-}
-.input {
-    width: 100px;
-    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 25px;
+    font-weight: bold;
+    padding: 2px;
+
     border-radius: 5px;
+    background-color: rgb(168, 161, 209);
 
-    padding: 10px;
 
 }
+
 
 .input_box {
     height: 40px;
@@ -18,19 +23,44 @@
     justify-content: space-around;
     align-items: center;
     
-    background-color: rgb(129, 141, 183);
-    
     padding: 5px;
+    align-items: center;
+   
+}
+input {
+    height: 10px;
+    width: 35%;
+
+    padding: 10px;
+
+    border: none;
+    border-radius: 10px;
 }
 
 .font {
     color:rgb(246, 241, 250);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    margin: 30px;
+    text-align: center;
     
 
 }
 
-.btn {
-    
-    }
+.Form > button {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(225, 227, 240);
+
+    padding: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(90, 80, 147);
+}
+
+.Form > button:hover {
+    cursor: pointer;
+
+    width: calc(15%);
+}

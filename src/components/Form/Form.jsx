@@ -30,6 +30,7 @@ function Form({todos, setTodos}) {
         <button className="btn">추가하기</button>
         </form>
     )
+    
     } 
 
 export default Form

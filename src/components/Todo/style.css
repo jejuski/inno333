@@ -1,0 +1,46 @@
+.todo_container {
+    border: 8px solid rgb(168, 161, 209);
+    border-radius: 5px;
+
+    width: 480px;
+    height: 160px;
+
+    padding: 15px;
+    margin: 10px;
+
+    text-align: center;
+}
+
+.todo_container > p {
+    color:rgb(86, 90, 63);
+    
+}
+
+.todo_container > button {
+    border-radius: 5px;
+    border: none;
+
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+
+    font-weight: bold;
+}
+
+.del_btn {
+    background-color: rgb(168, 161, 209);
+    color: rgb(254, 254, 254);
+    margin-right: 10px;
+}
+
+.del_btn:hover {
+    cursor: pointer;
+    font-size: calc(100%);
+}
+
+.com_btn:hover {
+    cursor: pointer;
+    font-size: calc(100%);
+    background-color:rgb(215, 138, 210);
+    color: white;
+}

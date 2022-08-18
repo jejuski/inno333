@@ -3,7 +3,7 @@ import './style.css'
 
 function Layout(props) {
     return (
-        <div>
+        <div className='layout'>
             {props.children}
         </div>
     )
